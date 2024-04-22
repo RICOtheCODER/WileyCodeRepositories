@@ -27,6 +27,6 @@ public class EmployeeRepositoryDbImplementation implements EmployeeRepository,Co
 
     @Override
     public void showCommonInfo() {
-        
+
     }
 }

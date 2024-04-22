@@ -50,5 +50,6 @@ public class EmployeeHierarchy {
         em1.saveEmployee(employee2);
         System.out.println(em1.findEmployeebyID(45));
         System.out.println(em1.getAllEmployees());
+        System.out.println(em1.findEmployeebyID(25));
     }
 }
