@@ -45,11 +45,14 @@ public class EmployeeHierarchy {
       //  }
         Employee employee1=new BackendDeveloper(25,"Saurajit Sarkar","abcunited@gmail.com",47600,"Java And Spring","My SQL");
         Employee employee2=new Manager(45,"Selena Gomez","selenaworks@gmail.com",89000,15);
+        Employee employee3=new Manager(60,"Tate McRae","TateAte@gmail.com",89800,25);
         EmployeeRepository em1=new EmployeeRepositoryListBased();
         em1.saveEmployee(employee1);
         em1.saveEmployee(employee2);
         System.out.println(em1.findEmployeebyID(45));
         System.out.println(em1.getAllEmployees());
         System.out.println(em1.findEmployeebyID(25));
+        System.out.println(em1.findEmployeebyID(60));
+
     }
 }
